@@ -58,8 +58,8 @@
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Demo|Win32'">..\..\_temp\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Demo|Win32'">false</LinkIncremental>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Amnesia</TargetName>
-    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Руслан\Desktop\AmnesiaTheDarkDescent\HPL2\dependencies\include;C:\Users\Руслан\Desktop\AmnesiaTheDarkDescent\HPL2\core\include;$(IncludePath)</IncludePath>
-    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Руслан\Desktop\AmnesiaTheDarkDescent\HPL2\dependencies\lib\win32;C:\Users\Руслан\Desktop\AmnesiaTheDarkDescent\HPL2\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\HPL2\dependencies\include;..\..\..\HPL2\core\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\HPL2\dependencies\lib\win32;..\..\..\HPL2\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetName>Amnesia_Debug</TargetName>

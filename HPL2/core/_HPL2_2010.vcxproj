@@ -70,8 +70,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <TargetName>HPL2_2010</TargetName>
-    <IncludePath>C:\Users\Руслан\Desktop\AmnesiaTheDarkDescent\HPL2\dependencies\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Руслан\Desktop\AmnesiaTheDarkDescent\HPL2\dependencies\lib\win32;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\dependencies\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\dependencies\lib\win32;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoHPLMain|Win32'">
     <TargetName>HPL2_2010</TargetName>
